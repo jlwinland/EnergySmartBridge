@@ -1,3 +1,4 @@
+Edited Dockerfile and docker-compose.yml files to allow successful build
 # EnergySmart Bridge
 MQTT bridge for the [Lowe's EnergySmart Water Heater WiFi Controller](https://www.lowes.com/pd/EnergySmart-Electric-Plastic-Water-Heater-Controller/50292493). This controller supports a number of A.O. Smith and Whirlpool water heaters. It might be compatible with the [Kenmore Smart Electric Water Heater Module](https://www.sears.com/kenmore-smart-water-heater-module/p-04258000000P).
 
@@ -14,7 +15,7 @@ The controller posts the status of the water heater every five minutes to https:
 ## Docker
 1. Clone git repo and build docker image
 ```
-git clone https://github.com/excaliburpartners/EnergySmartBridge.git
+git clone https://github.com/jlwinland/EnergySmartBridge.git
 cd EnergySmartBridge
 docker-compose build
 ```
